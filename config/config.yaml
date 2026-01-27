@@ -488,10 +488,22 @@ advanced:
 
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
+  #weight:
+  #  rank: 0.6                         # 排名权重
+  #  frequency: 0.3                    # 频次权重
+  #  hotness: 0.1                      # 热度权重
+
+  # 追深度话题型：适用人群：投资者、研究人员、新闻工作者、需要深度分析趋势的用户
   weight:
-    rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
-    hotness: 0.1                      # 热度权重
+    rank: 0.4           # 适度看排名
+    frequency: 0.5      # 重视当天内的持续热度
+    hotness: 0.1
+
+  # 追实时热点型：适用人群：自媒体博主、营销人员、想快速了解当下最火话题的用户
+  #weight:
+  #  rank: 0.8           # 主要看排名
+  #  frequency: 0.1      # 不太在乎持续性
+  #  hotness: 0.1
 
   # 多账号限制
   max_accounts_per_channel: 3         # 每个渠道最大账号数量
