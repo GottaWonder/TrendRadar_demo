@@ -232,6 +232,12 @@ A股
 +涨跌
 !预测
 
+[马斯克]
+马斯克
+特斯拉
+SpaceX
+Optimus
+
 [AIDC]
 aidc
 液冷
